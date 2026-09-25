@@ -11,5 +11,10 @@ def divide(a, b):
     return a / b
 def remainder_from_division(a, b):
     return a % b
+
 def factorial(a, b):
     return math.factorial(a) * math.factorial(b)
+
+def exponentiation(a, b):
+    return a ** b
+
