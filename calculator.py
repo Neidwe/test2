@@ -18,7 +18,7 @@ def factorial(a, b):
 def exponentiation(a, b):
     return a ** b
 
-def root(n):
-    if n < 0:
-        return -((-n) ** (1 / 2))
-    return n ** (1 / 2)
+def root(num):
+    if num < 0:
+        return -((-num) ** (1 / 2))
+    return num ** (1 / 2)
